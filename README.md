@@ -16,7 +16,8 @@ Make sure your device tree uses :
 ```
 TARGET_KERNEL_CONFIG := cmXX_m2note_defconfig
 ```
-(where "XX" = cm version, currently supported : 12 / 13 / 14)  
+(where "XX" = cm version, currently supported : 12 / 13)  
+PS: cm/linOS 14.x kernel was moved to its own branch "ng-7"
 
 From within the Android Sources you want to build, do :  
 
